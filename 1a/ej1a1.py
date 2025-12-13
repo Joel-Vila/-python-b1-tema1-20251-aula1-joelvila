@@ -41,7 +41,24 @@ Exemple:
 
 def fibonacci(fibonacci_number):
     # Write here your code
+    count = 1
+    number1 = 0
+    number2 = 1
+    next = number2
+    try:
+
+    	while count <= fibonacci_number:
+    		print(next, end=", ")
+    		next = number1 + number2
+    		number1 = number2
+    		number2 = next
+    		count += 1
+
+    except ValueError:
+    	print("Assegurat de possar un numero enter")
+
     pass
+fibonacci(10)
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script 
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
