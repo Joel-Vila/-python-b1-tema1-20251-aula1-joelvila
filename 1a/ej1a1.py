@@ -55,7 +55,7 @@ def fibonacci(fibonacci_number):
     		count += 1
 
     except ValueError:
-    	print("Assegurat de possar un numero enter")
+    	print("Assegurat de possar un numero enter i positiu")
 
     pass
 fibonacci(10)
