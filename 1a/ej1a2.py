@@ -43,6 +43,15 @@ Exemple:
 
 def sum_odd_numbers(list_numbers):
     # Write here your code
+    try:
+        result = 0
+        list_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        for odd in list_numbers:
+            if odd % 2 == 1:
+                result += odd
+        print(result)
+    except ValueError:
+        raise ValueError("MENSAJE DE ERROR")
     pass
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script 
