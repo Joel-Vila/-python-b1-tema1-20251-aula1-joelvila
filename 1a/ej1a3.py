@@ -33,7 +33,14 @@ Exemple:
 
 def invert_text(text_chain:str):
     # Write here your code
+    text = text_chain
+    reversed_text = ''
+
+    for letter in text:
+        reversed_text = letter + reversed_text
+    print(reversed_text)
     pass
+invert_text("test")
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script 
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
