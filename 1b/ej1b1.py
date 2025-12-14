@@ -37,7 +37,11 @@ Exemple:
 
 def obtain_max(list_numbers):
     # Write here your code
+
+    list_numbers = [1, 2, 3, 76 , 4, 5, 6]
+    print(max(list_numbers))
     pass
+obtain_max("")
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script 
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
