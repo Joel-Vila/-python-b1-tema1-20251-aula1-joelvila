@@ -35,7 +35,17 @@ Exemple:
 
 def count_vowels(text_chain:str):
     # Write here your code
+    text = text_chain
+    vowel = 'aeiouAEIOU'
+    vowels = list(vowel)
+    count = 0
+
+    for letter in text:
+        if letter in vowels:
+            count += 1
+    print(count)
     pass
+count_vowels("test")
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script 
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
