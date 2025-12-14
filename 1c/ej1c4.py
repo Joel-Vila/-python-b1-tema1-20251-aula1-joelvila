@@ -42,7 +42,14 @@ Exemple:
 
 def is_palindrome(word):
     # Write here your code
+    original = word
+    reverse = ''
+    for letter in original:
+        reverse = letter + reverse
+    print(reverse)
+    print(original == reverse)
     pass
+is_palindrome("racecar")
 
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
