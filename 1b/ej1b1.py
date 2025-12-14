@@ -9,12 +9,13 @@ Recuerda que en Python existe la función llamada 'max'
 Parámetros:
 - list_numbers: Lista de números enteros
 
-Ejemplo:
-    Entrada:
-    obtain_max([1, 45, 87, 21, 0, 23, 28])
+def obtain_max(list_numbers):
+    # Write here your code
 
-    Salida:
-    87
+    list_numbers = [1, 2, 3, 76 , 4, 5, 6]
+    print(max(list_numbers))
+    pass
+obtain_max("")
 
 Enunciat:
 Implementar la funció 'obtain_max(list_numbers)' que rep 
