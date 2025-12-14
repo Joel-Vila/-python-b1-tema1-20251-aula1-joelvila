@@ -37,9 +37,13 @@ Exemple:
 """
 
 
-def find_max(lst):
+def find_max(numbers_list):
     # Write here your code
+
+    lst = [1, 2, 3, 76.6 , 4, 5, 6]
+    print(max(lst))
     pass
+find_max("")
 
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
