@@ -44,10 +44,12 @@ Exemple:
 
 """
 
-
 def mult_recursive(value, times):
     # Write here your code
+    result = value * times
+    print(result)
     pass
+mult_recursive(2, 3)
 
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
