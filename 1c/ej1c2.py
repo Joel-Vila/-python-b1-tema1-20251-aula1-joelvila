@@ -34,10 +34,13 @@ Exemple
 
 """
 
-
 def invert_list(lst):
     # Write here your code
+    lst = [1, 2, 3, 4, 5]
     pass
+    lst.reverse()
+    print(lst)
+invert_list("")
 
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
